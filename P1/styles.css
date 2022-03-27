@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+body{
+    background-color:#D7D9DC;
+    font-family: 'Gideon Roman', cursive;
+}
+
+#gambar1{
+    height: 350px;
+    width: auto;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+h1{
+    padding-top: 1%;
+    color: #9c6644;
+}
+
+/* Style buttons */
+.buttonload {
+    background-color: #04AA6D; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px /* Set a font size */
+  }
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color: #9c6644;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #7f5539; /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #b08968; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #ddb892 /* Light Black */
+  }
+
+svg{
+    padding: auto;
+}
+
